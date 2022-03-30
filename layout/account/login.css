@@ -1,0 +1,15 @@
+.account-box {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    /*background: #e5e5e5;*/
+    border: 1px solid transparent;
+    border-image: linear-gradient(90deg, rgba(0,95,115,1) 0%, rgba(10,147,150,1) 100%);
+    border-image-slice: 1;
+    width: 35em;
+    height: 50em;
+
+}
