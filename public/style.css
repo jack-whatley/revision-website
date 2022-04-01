@@ -26,10 +26,17 @@ body {
 .navbar-title {
 
     margin: 0px;
+    display: inline;
 
 }
 
-.navbar-cont {margin-left: 40vw;}
+/*.navbar-cont {display: flex;}*/
+
+.navbar-image {
+
+    display: inline;
+
+}
 
 .navbar-link {
 
@@ -54,6 +61,12 @@ body {
 .navbar-link:hover {
 
     -webkit-filter: brightness(90%);
+
+}
+
+.link-active {
+
+    -webkit-filter: brightness(125%);
 
 }
 

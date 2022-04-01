@@ -6,10 +6,22 @@
     transform: translate(-50%,-50%);
 
     /*background: #e5e5e5;*/
-    border: 1px solid transparent;
-    border-image: linear-gradient(90deg, rgba(0,95,115,1) 0%, rgba(10,147,150,1) 100%);
-    border-image-slice: 1;
-    width: 35em;
-    height: 50em;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 1em;
+    width: 30vw;
+    height: 80vh;
+
+}
+
+.login-title {
+
+    margin-bottom: 0px;
+
+}
+
+.create-label {
+
+    margin-top: 1em;
 
 }
