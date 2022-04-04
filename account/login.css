@@ -1,0 +1,69 @@
+.account-box {
+
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    /*background: #e5e5e5;*/
+    /*border: 1px solid black;*/
+    border-radius: 5px;
+    padding-left: 1em;
+    width: 30vw;
+    height: 80vh;
+
+}
+
+.create-form {
+
+    margin-top: 1em;
+    width: 25vw;
+
+}
+
+.login-title {
+
+    margin-bottom: 0px;
+
+}
+
+.small-text {
+
+    margin: 0px;
+    margin-top: 1.5em;
+    font-size: small;
+
+}
+
+.create-input {
+
+    padding: 1em;
+    width: calc(100% - 2em);
+    margin-top: .5em;
+    border-radius: 5px;
+    border: 1px solid black;
+
+}
+
+.google-placeholder {
+
+    margin-top: 2em;
+    padding: 1em;
+    background: none;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+
+.create-button {
+
+    margin-top: 1.5em;
+    padding: 1em;
+    width: 100%;
+
+    border: none;
+    background: #4262ff;
+    color: white;
+    border-radius: 5px;
+
+}

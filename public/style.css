@@ -55,6 +55,7 @@ body {
     -webkit-filter: brightness(100%);
     -webkit-transition: all .5s ease;
     transition: all .5s ease;
+    filter: none;
 
 }
 
