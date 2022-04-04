@@ -62,12 +62,14 @@ body {
 .navbar-link:hover {
 
     -webkit-filter: brightness(90%);
+    filter: none;
 
 }
 
 .link-active {
 
     -webkit-filter: brightness(125%);
+    filter: none;
 
 }
 
@@ -80,5 +82,6 @@ body {
 #account-button:hover {
 
     -webkit-filter: brightness(125%);
+    filter: none;
 
 }
