@@ -1,0 +1,42 @@
+@keyframes dropIn {
+
+    from {top: 18%;}
+    to   {top: 20%;}
+
+}
+
+.subject-title {
+
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    font-size: 4em;
+
+    /*animation: dropIn .25s linear .1s;*/
+
+}
+
+.subject-container {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: calc(22.5vw * 3);
+
+}
+
+.subject {
+
+    width: 22.5vw;
+    height: 8vw;
+    background: red;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+
+}

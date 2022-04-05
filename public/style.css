@@ -81,7 +81,7 @@ body {
 
 #account-button:hover {
 
-    -webkit-filter: brightness(125%);
+    -webkit-filter: brightness(125%) !important;
     filter: none;
 
 }
