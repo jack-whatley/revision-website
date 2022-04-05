@@ -17,4 +17,10 @@ app.get("/login", (req, res) => {
 
 });
 
+/*app.get("/forgot-pass", (req, res) => {
+
+
+
+});*/
+
 app.listen(5000)

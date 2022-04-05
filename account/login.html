@@ -43,15 +43,27 @@
 
             <p class="small-text">Or sign in with your email:</p>
             
-            <form class="create-form">
+            <form class="login-form">
 
-                <input type="email" class="create-input" name="username-input" placeholder="✉ Email"><br>
+                <div class="login-input">
 
-                <input type="password" class="create-input" name="password-input" placeholder="∞ Password"><br>
+                    <img src="/svgs/envelope.png" width="18" height="18" class="login-img">
+                    <input type="email" class="login-box" placeholder="Account Email">
 
-                <button class="create-button">Sign In</button>
+                </div>
+
+                <div class="login-input"  id="pass-box">
+
+                    <img src="/svgs/lock.png" class="login-img" width="18" height="18">
+                    <input type="password" class="login-box" placeholder="Account Password">
+
+                </div>
 
             </form>
+
+            <a href="#" class="forgot-link">I forgot my password</a>
+
+            <button class="create-button">Sign In</button>
 
         </div>
 

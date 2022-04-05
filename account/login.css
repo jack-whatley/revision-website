@@ -14,7 +14,7 @@
 
 }
 
-.create-form {
+.login-form {
 
     margin-top: 1em;
     width: 25vw;
@@ -35,13 +35,31 @@
 
 }
 
-.create-input {
+.login-input {
 
-    padding: 1em;
-    width: calc(100% - 2em);
+    padding: .5em;
+    width: calc(100% - 1em);
     margin-top: .5em;
     border-radius: 5px;
     border: 1px solid black;
+    display: flex;
+    align-items: center;
+
+}
+
+.login-box {
+
+    border: none;
+    outline: none;
+    font-size: 1.25em;
+    width: calc(100% - 18px - 1em);
+
+}
+
+.login-img {
+
+    margin-right: .45em;
+    margin-left: .25em;
 
 }
 
@@ -57,13 +75,38 @@
 
 .create-button {
 
-    margin-top: 1.5em;
-    padding: 1em;
-    width: 100%;
+    margin-top: 1em;
+    padding: .5em;
+    width: 25vw;
+    font-size: 1.15em;
 
     border: none;
     background: #4262ff;
+    border: 1px solid #4262ff;
     color: white;
     border-radius: 5px;
+
+}
+
+.forgot-link {
+
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    transition: all 300ms linear 0s;
+    padding-bottom: 1px;
+    font-size: small;
+
+}
+
+.forgot-link:hover {
+
+    border-bottom: none;
+
+}
+
+#pass-box {
+
+    margin-bottom: .75em;
 
 }
