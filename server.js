@@ -17,10 +17,10 @@ app.get("/login", (req, res) => {
 
 });
 
-/*app.get("/forgot-pass", (req, res) => {
+app.get("/forgot-pass", (req, res) => {
 
+    res.sendFile(path.join(__dirname + "/account/forgot.html"));
 
-
-});*/
+});
 
 app.listen(5000)
