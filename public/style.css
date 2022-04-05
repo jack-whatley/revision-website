@@ -61,14 +61,7 @@ body {
 
 .navbar-link:hover {
 
-    -webkit-filter: brightness(90%);
-    filter: none;
-
-}
-
-.link-active {
-
-    -webkit-filter: brightness(125%);
+    -webkit-filter: brightness(110%) !important;
     filter: none;
 
 }
@@ -76,13 +69,6 @@ body {
 #account-button {
 
     background: linear-gradient(135deg, rgba(0,119,182,1) 0%, rgba(144,224,239,1) 100%) !important;
-
-}
-
-#account-button:hover {
-
-    -webkit-filter: brightness(125%) !important;
-    filter: none;
 
 }
 
