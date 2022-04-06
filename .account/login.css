@@ -85,6 +85,14 @@
     border: 1px solid #4262ff;
     color: white;
     border-radius: 5px;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+
+}
+
+.create-button:hover {
+
+    -webkit-filter: brightness(125%);
 
 }
 
