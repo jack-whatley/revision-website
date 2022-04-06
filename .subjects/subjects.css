@@ -81,10 +81,9 @@
 
 .subject-text {
 
-    width: 60%;
+    width: 20em;
     text-align: center;
     opacity: 0%;
-    /*display: none;*/
     transition: all .25s ease-out;
     margin: 0px;
     position: relative;

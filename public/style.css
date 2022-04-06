@@ -17,7 +17,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
     padding: .5em;
 
@@ -27,14 +27,23 @@ body {
 
     margin: 0px;
     display: inline;
+    background: linear-gradient(90deg, rgba(86,11,173,1) 0%, rgba(58,12,163,1) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 
 }
 
-/*.navbar-cont {display: flex;}*/
+.navbar-cont {
 
-.navbar-image {
+    margin-left: 1em;
+    margin-right: 1em;
 
-    display: inline;
+}
+
+.nav-img {
+
+    width: 1em;
+    height: auto;
 
 }
 
