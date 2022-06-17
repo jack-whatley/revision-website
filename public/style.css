@@ -25,9 +25,9 @@ body {
 
 .navbar-title {
 
-    margin: 0px;
+    margin: 50px;
     display: inline;
-    background: linear-gradient(90deg, rgba(86,11,173,1) 0%, rgba(58,12,163,1) 100%);
+    background: linear-gradient(90deg, rgba(0, 102, 145, 1) 0%, rgba(58,12,163,1) 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 
@@ -75,10 +75,28 @@ body {
 
 }
 
+#subject-button {
+
+    background: linear-gradient(10deg, rgba(4, 151, 214, 1) 0%, rgba(144,224,239,1) 100%) !important;
+
+}
 #account-button {
 
-    background: linear-gradient(135deg, rgba(0,119,182,1) 0%, rgba(144,224,239,1) 100%) !important;
+    background: linear-gradient(10deg, rgba(4, 151, 214, 1) 0%, rgba(144,224,239,1) 100%) !important;
 
+}
+
+#front-text {
+
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    font-size: 3em;
+
+    opacity: 100%;
+    transition: all .1s ease-in-out;
 }
 
 .main-link {
