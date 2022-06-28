@@ -8,11 +8,13 @@ body {
 
 .navbar {
 
-    width: calc(100% - 1em);
+    width: 100%;
+    position: fixed;
     min-height: 2em;
     border-bottom: 2px solid transparent;
     border-image: linear-gradient(90deg, rgba(0,95,115,1) 0%, rgba(10,147,150,1) 100%);
     border-image-slice: 1;
+    transition: top 0.3s;
 
     display: flex;
     flex-direction: row;
@@ -31,6 +33,33 @@ body {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: #000;
+    color: black;
+}
+
+.active {
+    background-color: #04AA6D;
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
 }
 
 .navbar-cont {
@@ -88,7 +117,7 @@ body {
 
 #front-text {
 
-    position: absolute;
+    position: fixed;
     top: 20%;
     left: 50%;
     transform: translate(-50%,-50%);
